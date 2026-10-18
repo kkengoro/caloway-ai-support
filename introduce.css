@@ -1078,3 +1078,71 @@ h2 {
 .photo-demo li span { font-size:12px; display:block; color:var(--muted); margin-top:4px; }
 .photo-demo .photo-disclaimer { font-size:12px; margin-top:24px; color:var(--muted); }
 @media(max-width:720px) { .photo-demo { grid-template-columns:1fr; gap:25px; padding:25px 22px; } .photo-demo figure { width:100%; max-width:265px; margin-inline:auto; } .photo-demo h3 { font-size:24px; } .photo-demo p { font-size:12px; } .photo-demo strong { font-size:13px; } .hero-mascot-caption { font-size:11px; } .art-caption { bottom:-32px; } }
+
+/* App-native iconography and a clearer reading hierarchy. */
+.hero h1 { font-size:48px; line-height:1.55; letter-spacing:.015em; }
+.hero .intro { font-size:17px; line-height:2.1; }
+.eyebrow { font-size:11px; }
+h2, .plan h2 { font-size:36px; line-height:1.6; }
+.section-heading>p { font-size:14px; line-height:2; }
+.section-heading { margin-bottom:38px; }
+.feature-grid { gap:26px; }
+.feature { padding:30px 26px; }
+.app-icon-wrap { display:flex; align-items:center; justify-content:center; width:84px; height:84px; background:#fffdf7; border-radius:23px; margin-bottom:19px; }
+.app-feature-icon { width:96px; height:96px; object-fit:contain; image-rendering:auto; }
+.app-feature-icon[src$=".svg"] { width:61px; height:61px; image-rendering:pixelated; }
+.feature h3 { font-size:23px; line-height:1.55; font-weight:800; margin-bottom:16px; letter-spacing:0; }
+.feature p { font-size:15px; line-height:1.9; color:var(--ink); margin-bottom:21px; }
+.feature-detail { font-size:13px; line-height:1.9; color:var(--muted); }
+.feature-detail li+li { margin-top:12px; }
+.feature-tag { font-size:10px; margin-top:5px; }
+.ticket-app-icon { width:60px; height:60px; object-fit:contain; margin:-9px; }
+.photo-ticket { gap:15px; font-size:14px; }
+.photo-ticket small { font-size:11px; }
+.section-app-icon { display:block; width:80px; height:80px; object-fit:contain; margin:7px 0 12px; image-rendering:pixelated; }
+.photo-camera-icon { width:110px; height:110px; margin:-7px 0 -1px -15px; image-rendering:auto; }
+.app-food-icon { width:61px; height:61px; image-rendering:pixelated; }
+.walking-lead, .companion-copy>p:not(.eyebrow):not(.release-note) { font-size:16px; line-height:2; margin-bottom:29px; }
+.walking-details strong { font-size:17px; line-height:1.65; }
+.walking-details span { font-size:14px; line-height:1.95; margin-top:7px; }
+.walking-details li { margin-top:24px; }
+.release-note { color:var(--muted); }
+.photo-demo h3 { font-size:35px; line-height:1.6; }
+.photo-demo p { font-size:16px; }
+.photo-demo strong { font-size:17px; }
+.photo-demo li span { font-size:14px; line-height:1.9; }
+.steps h3 { font-size:19px; }
+.steps p { font-size:14px; line-height:1.9; }
+.how-heading>p:last-child { font-size:14px; }
+.plan>div>p:not(.eyebrow) { font-size:16px; }
+.price-card ul { font-size:14px; }
+.price-card .trial { font-size:13px; }
+@media(max-width:1000px) { .hero h1 { font-size:38px; } .hero .intro { font-size:15px; } .feature h3 { font-size:21px; } h2,.plan h2 { font-size:31px; } }
+@media(max-width:720px) {
+  .hero h1 { font-size:clamp(28px,8.1vw,39px); line-height:1.6; }
+  .hero .intro { font-size:15px; }
+  h2,.plan h2 { font-size:28px; line-height:1.65; }
+  .section-heading>p { font-size:13px; }
+  .feature { display:block; padding:27px 24px; }
+  .app-icon-wrap { width:72px; height:72px; border-radius:20px; margin-bottom:17px; }
+  .app-feature-icon { width:84px; height:84px; }
+  .app-feature-icon[src$=".svg"] { width:53px; height:53px; }
+  .feature h3 { font-size:23px; margin-bottom:13px; }
+  .feature p { font-size:15px; }
+  .feature-detail { font-size:13px; padding-left:17px; }
+  .feature-tag { font-size:10px; }
+  .section-app-icon { width:66px; height:66px; }
+  .walking-lead,.companion-copy>p:not(.eyebrow):not(.release-note) { font-size:15px; }
+  .walking-details strong { font-size:16px; }
+  .walking-details span { font-size:14px; }
+  .photo-demo h3 { font-size:28px; }
+  .photo-demo p { font-size:15px; }
+  .photo-demo strong { font-size:16px; }
+  .photo-demo li span { font-size:13px; }
+  .photo-camera-icon { width:95px; height:95px; }
+  .steps h3 { font-size:17px; }
+  .steps p { font-size:13px; }
+  .photo-ticket { font-size:12px; }
+  .photo-ticket small { font-size:10px; }
+}
+@media(max-width:350px) { .hero h1 { font-size:27px; } }
