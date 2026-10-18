@@ -30,3 +30,11 @@ h2,.plan h2{font:900 42px/1.55 var(--display);letter-spacing:.07em;color:#e1bc50
 @media(max-width:1000px){h2,.plan h2{font-size:36px}.hero{min-height:780px}.hero h1{font-size:49px}}
 @media(max-width:720px){.hero{width:100%;min-height:840px;padding:56px 23px 95px;gap:0}.hero-wordmark{font-size:52px;margin-bottom:28px}.hero h1{font-size:clamp(33px,9vw,43px);line-height:1.55;letter-spacing:.045em}.hero .eyebrow{font-size:10px;letter-spacing:.13em}.hero .intro{font-size:16px}.hero-badges{gap:12px}.hero .button{width:auto;min-width:250px;max-width:100%;font-size:16px}.hero .micro{font-size:12px}.westcoast-hero-photo{padding:0;border-radius:0}.westcoast-hero-photo>img{object-position:53% center}.westcoast-hero-photo figcaption{padding:0;bottom:18px}.westcoast-hero-photo figcaption small{font-size:12px}.site-header{padding-block:19px 12px}.brand{font-size:26px}.site-header nav{border-color:#54482b}.everyday-grid figure{padding:11px}.everyday-grid figcaption{padding:16px 6px 6px}.everyday-grid figcaption span{font-size:20px}h2,.plan h2{font-size:31px;line-height:1.6;letter-spacing:.04em}h2:after{margin-top:19px;width:min(100%,260px)}.photo-demo h3{font-size:29px}.feature h3{font-size:24px}.walking-photo-story figcaption{font-size:18px}.walking-photo-main figcaption{font-size:21px}.price strong{font-size:58px}}
 @media(max-width:350px){.hero{padding-inline:18px}.hero-wordmark{font-size:45px}.hero h1{font-size:31px}.hero-badges span{font-size:11px}.feature h3{font-size:22px}}
+
+/* Only the three brand logotypes use the lettering from the owner's photo. */
+.brand .brand-wordmark{display:block;width:184px;height:auto;max-width:100%;border-radius:0;object-fit:contain}
+.hero-wordmark{margin:0 auto 25px;line-height:0;width:min(540px,100%);font-size:0;text-shadow:none}
+.hero-wordmark>img{display:block;width:100%;height:auto;object-fit:contain}
+.footer-wordmark{display:block;width:220px;height:auto;object-fit:contain}
+@media(max-width:720px){.brand .brand-wordmark{width:168px}.hero-wordmark{width:min(390px,100%);margin-bottom:24px}.footer-wordmark{width:205px}}
+@media(max-width:350px){.brand .brand-wordmark{width:150px}.hero-wordmark{width:100%}}
