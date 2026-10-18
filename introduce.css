@@ -1360,3 +1360,22 @@ a:focus-visible { outline-color:#a54e23; }
 .start-photo figcaption { padding:13px 9px 8px; font-size:15px; font-weight:700; line-height:1.8; }
 .start-photo small { display:block; font-size:12px; font-weight:400; color:#52605a; margin-top:7px; }
 .how .steps { align-self:center; }
+
+/* Walking photography and an earlier introduction to everyday food moments. */
+.ticker + .everyday { padding-top:58px; padding-bottom:48px; }
+.everyday + .features { padding-top:32px; }
+.walking-photo-story { min-width:0; background:#fff9ed; border:1px solid #b7b596; border-radius:24px; padding:15px; box-shadow:4px 5px #a7b99b; }
+.walking-photo-story .map-label { text-align:center; font-size:10px; line-height:1.7; margin:6px 0 15px; letter-spacing:1.1px; }
+.walking-photo-story figure { margin:0; min-width:0; }
+.walking-photo-story img { display:block; width:100%; height:auto; border-radius:14px; }
+.walking-photo-story figcaption { font-size:13px; font-weight:700; line-height:1.7; padding:10px 3px; }
+.walking-photo-main figcaption { font-size:17px; padding-block:12px 18px; }
+.walking-photo-pair { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+.walking-photo-note { font-size:12px; line-height:1.8; color:#52605a; margin:12px 3px 3px; }
+@media(max-width:720px) {
+ .ticker + .everyday { padding-top:40px; padding-bottom:35px; }
+ .everyday + .features { padding-top:20px; }
+ .walking-photo-story { padding:12px; }
+ .walking-photo-pair { grid-template-columns:minmax(0,1fr); gap:10px; }
+ .walking-photo-story figcaption { font-size:15px; }
+}
