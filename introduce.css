@@ -1067,7 +1067,7 @@ h2 {
 .actual-companion { width:100%; max-width:280px; height:auto; image-rendering:pixelated; display:block; margin:4px auto; }
 .photo-demo { display:grid; grid-template-columns:0.8fr 1.2fr; gap:56px; align-items:center; margin:0 0 38px; padding:30px 42px; border:2px solid var(--ink); border-radius:28px; box-shadow:0 6px var(--ink); background:#fff8e8; }
 .photo-demo figure { margin:0; max-width:310px; }
-.photo-demo img { display:block; width:100%; height:auto; border-radius:20px; border:1px solid var(--line); }
+.photo-demo figure > img { display:block; width:100%; height:auto; border-radius:20px; border:1px solid var(--line); }
 .photo-demo figcaption { font-size:12px; line-height:1.7; margin-top:12px; color:var(--muted); }
 .photo-demo h3 { font-size:29px; line-height:1.7; margin:4px 0 18px; }
 .photo-demo p { font-size:14px; line-height:2; }
