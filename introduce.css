@@ -1,6 +1,6 @@
 :root {
-  --cream:#f5f1df;
-  --paper:#fffcf1;
+  --cream:#fffdf7;
+  --paper:#fffdf7;
   --ink:#263f32;
   --green:#405a3d;
   --light:#e6e9cc;
@@ -904,5 +904,58 @@ h2 {
   }
   .art-caption {
     bottom: -20px;
+  }
+}
+
+/* The same cream canvas as the app, with green kept as an accent. */
+.top-strip, .ticker, .plan-wrap {
+  background: var(--cream);
+  color: var(--ink);
+  background-image: none;
+}
+.top-strip {
+  border-bottom: 1px solid var(--line);
+}
+.plan-wrap {
+  border-block: 1px solid var(--line);
+}
+.price-card {
+  box-shadow: 5px 5px #bec5a6;
+}
+.plan-wrap a:focus-visible {
+  outline-color: var(--green);
+}
+.feature h3 {
+  font-size: 18px;
+  line-height: 1.65;
+}
+.feature p {
+  min-height: 0;
+  margin-bottom: 16px;
+}
+.feature-detail {
+  padding-left: 17px;
+  margin: 0 0 23px;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.feature-detail li + li {
+  margin-top: 8px;
+}
+.feature-grid {
+  align-items: stretch;
+}
+@media (max-width: 720px) {
+  .feature-detail {
+    grid-column: 2;
+    font-size: 12px;
+    padding-left: 15px;
+    margin-bottom: 18px;
+  }
+  .feature p {
+    font-size: 12px;
+  }
+  .feature h3 {
+    font-size: 18px;
   }
 }
