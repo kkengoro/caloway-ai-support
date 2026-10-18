@@ -1353,3 +1353,10 @@ a:focus-visible { outline-color:#a54e23; }
  .hero h1 { font-size:36px; }
  .brand { font-size:25px; }
 }
+
+/* More everyday meals, using the owner's original photographs unchanged. */
+.start-photo { margin:25px 0 0; padding:9px; background:#fff9ed; border:1px solid #c1a582; border-radius:22px; box-shadow:0 5px #c4a382; }
+.start-photo img { display:block; width:100%; height:auto; border-radius:14px; }
+.start-photo figcaption { padding:13px 9px 8px; font-size:15px; font-weight:700; line-height:1.8; }
+.start-photo small { display:block; font-size:12px; font-weight:400; color:#52605a; margin-top:7px; }
+.how .steps { align-self:center; }
