@@ -1271,3 +1271,85 @@ h2, .plan h2 { font-size:44px; line-height:1.45; letter-spacing:.01em; font-weig
  .feature h3 { font-size:25px; }
  .walking-panel h2,.companion-panel h2 { font-size:27px; }
 }
+
+/* California collection: warm film photography, diner colors, soft neon. */
+:root { --cream:#fff6df; --paper:#fff9ed; --ink:#173d39; --green:#225c50; --muted:#52605a; --line:#b6b79a; --yellow:#f5c447; --mint:#dce8c9; --peach:#f1b792; }
+body { background:#f5ead1; color:var(--ink); }
+.top-strip { background:#173d39; color:#ffe1a1; letter-spacing:2px; padding-block:12px; }
+.site-header { padding-block:25px; }
+.brand>span,.footer-brand { font-family:Georgia,"Times New Roman",serif; letter-spacing:-1.2px; }
+.brand { font-size:29px; }
+.brand b { font-size:22px; }
+.brand img { border-radius:16px; }
+.hero { width:min(1360px,calc(100% - 48px)); background:#153e3b; border-color:#153e3b; box-shadow:0 8px #bd6f48; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); padding:49px 42px; gap:36px; border-radius:32px; position:relative; }
+.hero h1 { font-size:clamp(45px,4.5vw,67px); line-height:1.28; }
+.hero .highlight { color:#f5c447; text-shadow:2px 3px #8d4b2e; }
+.hero .eyebrow { background:transparent; padding:0; color:#ffd67c; letter-spacing:1.5px; border-radius:0; }
+.hero .eyebrow .square { background:#e99a71; border-radius:50%; }
+.hero .primary { background:#f5c447; color:#173d39; border-color:#f5c447; box-shadow:0 5px #aa603c; }
+.hero .hero-badges span { background:#f5ead1; color:#173d39; }
+.hero .hero-badges span+span { background:#efb18c; }
+.hero .update-link { border-color:#edaa7e; }
+.westcoast-hero-photo { margin:0; min-width:0; border:9px solid #fff6df; border-radius:25px; background:#fff6df; color:#173d39; box-shadow:8px 9px 0 #0b2c2a; transform:rotate(2deg); overflow:hidden; }
+.westcoast-hero-photo>img { display:block; width:100%; height:auto; aspect-ratio:3/2; }
+.westcoast-hero-photo figcaption { padding:19px 15px 14px; }
+.westcoast-hero-photo figcaption span { display:block; font:700 10px/1.6 var(--mono); letter-spacing:1.7px; color:#89502d; }
+.westcoast-hero-photo figcaption strong { display:block; font-size:24px; line-height:1.6; margin:7px 0; }
+.westcoast-hero-photo figcaption small { display:block; font-size:12px; line-height:1.7; color:#52605a; }
+.ticker { background:#e4a16f; color:#213f35; border-color:#bd6f48; letter-spacing:3px; }
+h2,.plan h2 { letter-spacing:-.02em; }
+.section-heading .eyebrow,.how .eyebrow,.walking .eyebrow,.companion-panel .eyebrow { color:#864522; letter-spacing:1.8px; }
+.feature { box-shadow:0 6px #bc8f67; border-color:#345047; }
+.feature:nth-child(1),.feature:nth-child(4) { background:#fff8e9; }
+.feature:nth-child(2),.feature:nth-child(5) { background:#e4ebd8; }
+.feature:nth-child(3),.feature:nth-child(6) { background:#fae0c7; }
+.app-icon-wrap { background:#fff9ed; }
+.photo-demo { grid-template-columns:minmax(0,1.15fr) minmax(0,1fr); background:#fff9ed; gap:35px; padding:35px; box-shadow:0 6px #bc8f67; }
+.photo-demo figure { max-width:none; width:100%; }
+.photo-demo figure>img { border-radius:18px; }
+.photo-demo h3 { font-size:37px; }
+.photo-demo .photo-camera-icon { width:110px; height:110px; max-width:110px; }
+.coming-soon { background:#f5c447; }
+.walking-panel { background:#e7edda; box-shadow:0 6px #789881; }
+.companion-panel { background:#fae0c7; box-shadow:0 6px #bc8f67; }
+.walking-art,.companion-art { background:#fff9ed; }
+.walking-details li { border-color:#b47b4f; }
+.everyday { padding-top:12px; }
+.everyday-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:30px; }
+.everyday-grid figure { margin:0; padding:10px; border:1px solid #c1a582; border-radius:23px; background:#fff9ed; box-shadow:0 5px #c4a382; }
+.everyday-grid img { display:block; width:100%; height:auto; border-radius:15px; }
+.everyday-grid figcaption { padding:16px 10px 12px; font:700 11px/1.6 var(--mono); letter-spacing:1px; color:#89502d; }
+.everyday-grid figcaption span { display:block; font:700 20px/1.7 "Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif; color:#173d39; margin-top:7px; }
+.gallery-note { font-size:12px; color:#52605a; margin-top:18px; }
+.plan-wrap { background:#153e3b; color:#fff6df; border-top:8px solid #e4a16f; }
+.plan-wrap .eyebrow { color:#ffd67c; }
+.price-card { background:#fff6df; }
+.cream { background:#f5c447; }
+a:focus-visible { outline-color:#a54e23; }
+.hero a:focus-visible,.plan-wrap a:focus-visible { outline-color:#fff6df; }
+@media(max-width:1000px) {
+ .hero { gap:25px; padding:35px 29px; }
+ .hero h1 { font-size:48px; }
+ .westcoast-hero-photo figcaption strong { font-size:20px; }
+ .photo-demo h3 { font-size:32px; }
+}
+@media(max-width:720px) {
+ .hero { width:calc(100% - 32px); padding:32px 22px 30px; grid-template-columns:minmax(0,1fr); gap:32px; border-radius:27px; }
+ .hero h1 { font-size:clamp(38px,10.4vw,56px); }
+ .hero .eyebrow { font-size:9px; letter-spacing:.7px; }
+ .westcoast-hero-photo { border-width:7px; transform:none; border-radius:20px; box-shadow:4px 5px #0b2c2a; }
+ .westcoast-hero-photo figcaption { padding:14px 8px 10px; }
+ .westcoast-hero-photo figcaption strong { font-size:21px; }
+ .westcoast-hero-photo figcaption span { font-size:9px; letter-spacing:.8px; }
+ .photo-demo { grid-template-columns:minmax(0,1fr); padding:23px; gap:24px; }
+ .photo-demo figure { max-width:none; }
+ .photo-demo .photo-camera-icon { width:95px; height:95px; max-width:95px; }
+ .everyday-grid { grid-template-columns:minmax(0,1fr); gap:25px; }
+ .everyday { padding-top:0; }
+ .ticker { letter-spacing:1.5px; }
+}
+@media(max-width:350px) {
+ .hero { padding-inline:17px; }
+ .hero h1 { font-size:36px; }
+ .brand { font-size:25px; }
+}
