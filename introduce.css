@@ -1146,3 +1146,128 @@ h2, .plan h2 { font-size:36px; line-height:1.6; }
   .photo-ticket small { font-size:10px; }
 }
 @media(max-width:350px) { .hero h1 { font-size:27px; } }
+
+/* Green-first, big-type edition requested by the owner. */
+:root { --ink:#173c2a; --muted:#405c45; --green:#237044; --line:#91b67b; }
+body { background:#e2f2cf; }
+.top-strip { background:#174d32; color:#fffdf7; border:0; font-size:12px; }
+.site-header { border:0; padding-block:25px; }
+.site-header nav { font-size:14px; }
+.nav-support { background:#fffdf7; }
+.hero { background:#237044; color:#fffdf7; border:2px solid #173c2a; border-radius:38px; box-shadow:0 8px #16492d; padding:52px 47px 65px; margin-bottom:47px; grid-template-columns:1.08fr 1fr; gap:35px; }
+.hero h1 { font-size:64px; line-height:1.28; font-weight:900; letter-spacing:.015em; white-space:normal; margin:0 0 26px; }
+.hero .highlight { background:none; color:#f8e58c; }
+.hero .eyebrow { color:#173c2a; background:#f8e58c; font-size:10px; margin-bottom:22px; }
+.hero-badges span { color:#173c2a; border:0; font-size:12px; }
+.hero .intro { font-size:19px; line-height:1.9; }
+.hero .intro strong { font-size:22px; font-weight:800; }
+.hero .update-link { color:#fffdf7; border-color:#a8d994; font-size:13px; line-height:1.8; }
+.hero .micro, .hero .art-caption { color:#fffdf7; }
+.hero .micro { font-size:13px !important; }
+.hero .console, .hero .photo-ticket { color:#173c2a; }
+.hero .primary { background:#f8e58c; color:#173c2a; font-size:17px; border-radius:22px; }
+.hero .pixel-spark { color:#f8e58c; }
+.hero a:focus-visible { outline-color:#fffdf7; }
+.ticker { background:#c2e698; color:#173c2a; border-block:2px solid #5c8852; font-size:13px; padding-block:18px; }
+h2, .plan h2 { font-size:44px; line-height:1.45; letter-spacing:.01em; font-weight:900; }
+.section { padding-block:72px; }
+.section-heading .eyebrow,.how .eyebrow,.walking .eyebrow,.companion-panel .eyebrow { font-size:12px; color:#237044; }
+.section-heading>p { font-size:17px; line-height:1.9; }
+.feature-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:30px; }
+.feature { padding:34px; border-radius:28px; box-shadow:0 6px #558849; }
+.feature h3 { font-size:29px; line-height:1.5; margin-bottom:17px; }
+.feature p { font-size:18px; line-height:1.85; font-weight:600; }
+.feature-detail { font-size:15px; line-height:1.95; }
+.feature-tag { font-size:11px; }
+.feature-no { font-size:12px; }
+.photo-demo { background:#fffdf7; padding:38px 45px; }
+.photo-demo h3 { font-size:42px; line-height:1.5; }
+.photo-demo p { font-size:18px; }
+.photo-demo strong { font-size:19px; }
+.photo-demo li span { font-size:15px; }
+.walking { padding-top:0; }
+.walking-panel { background:#fffdf7; }
+.companion-panel { background:#fff8e8; }
+.walking-lead,.companion-copy>p:not(.eyebrow):not(.release-note) { font-size:18px; }
+.walking-details strong { font-size:20px; }
+.walking-details span { font-size:16px; }
+.coming-soon { font-size:14px; padding:7px 14px; }
+.release-note { font-size:13px; }
+.steps h3 { font-size:23px; }
+.steps p { font-size:16px; }
+.how-heading>p:last-child { font-size:17px; }
+.plan-wrap { background:#237044; color:#fffdf7; padding-block:10px; }
+.plan { border:0; }
+.plan>div>p:not(.eyebrow) { font-size:19px; }
+.price-card { background:#fffdf7; color:#173c2a; border-radius:29px; }
+.price strong { font-size:66px; }
+.price-card ul { font-size:16px; }
+.plan-wrap a:focus-visible { outline-color:#fffdf7; }
+.notice { padding-block:36px; }
+.notice p { font-size:13px !important; }
+.site-footer { padding-block:35px; }
+.footer-brand { font-size:28px; }
+@media(max-width:1000px) {
+ .hero { padding:39px 30px 60px; gap:28px; }
+ .hero h1 { font-size:52px; }
+ .hero .intro { font-size:17px; }
+ .hero .intro strong { font-size:19px; }
+ h2,.plan h2 { font-size:37px; }
+ .photo-demo { padding:30px; gap:30px; }
+ .photo-demo h3 { font-size:35px; }
+ .feature { padding:29px; }
+ .feature h3 { font-size:26px; }
+}
+@media(max-width:720px) {
+ .site-header { padding-block:19px 14px; }
+ .hero { grid-template-columns:minmax(0,1fr); border-radius:28px; padding:32px 22px 64px; gap:41px; margin-bottom:33px; }
+ .hero h1 { font-size:clamp(38px,10.4vw,51px); line-height:1.3; margin-bottom:22px; }
+ .hero .eyebrow { font-size:8px; letter-spacing:.4px; padding:7px 9px; }
+ .hero .intro { font-size:17px; }
+ .hero .intro strong { font-size:19px; }
+ .hero .update-link { font-size:12px; }
+ .hero .primary { font-size:15px; padding-inline:15px; gap:15px; }
+ .hero-art { width:calc(100% - 10px); }
+ .hero .art-caption { font-size:12px !important; bottom:-36px; }
+ .hero .console { padding:13px 12px 20px; }
+ .hero .console-bar { font-size:7px; letter-spacing:.5px; }
+ .hero .photo-ticket { left:-13px; padding:10px 12px; gap:12px; }
+ .hero .photo-ticket small { font-size:9px; }
+ .hero .screen-label { letter-spacing:.7px; font-size:7px; }
+ .hero .hero-mascot-caption { font-size:10px; }
+ h2,.plan h2 { font-size:32px; line-height:1.5; }
+ .section { padding-block:50px; }
+ .section-heading>p { font-size:15px; }
+ .feature-grid { grid-template-columns:minmax(0,1fr); gap:25px; }
+ .feature { padding:29px 24px; }
+ .feature h3 { font-size:27px; line-height:1.5; }
+ .feature p { font-size:17px; }
+ .feature-detail { font-size:15px; }
+ .photo-demo { padding:27px 22px; }
+ .photo-demo h3 { font-size:32px; }
+ .photo-demo p { font-size:17px; }
+ .photo-demo strong { font-size:18px; }
+ .photo-demo li span { font-size:15px; }
+ .walking { padding-top:0; }
+ .walking-panel,.companion-panel { padding:28px 22px; }
+ .walking-panel h2,.companion-panel h2 { font-size:30px; }
+ .walking-lead,.companion-copy>p:not(.eyebrow):not(.release-note) { font-size:17px; }
+ .walking-details strong { font-size:18px; }
+ .walking-details span { font-size:15px; }
+ .coming-soon { font-size:13px; }
+ .steps h3 { font-size:21px; }
+ .steps p { font-size:15px; }
+ .how-heading>p:last-child { font-size:16px; }
+ .plan>div>p:not(.eyebrow) { font-size:17px; }
+ .price strong { font-size:60px; }
+ .price-card ul { font-size:15px; }
+ .ticker { font-size:11px; }
+}
+@media(max-width:350px) {
+ .hero { padding-inline:17px; }
+ .hero h1 { font-size:36px; }
+ .hero .primary { padding-inline:10px; gap:10px; font-size:14px; }
+ .feature { padding-inline:21px; }
+ .feature h3 { font-size:25px; }
+ .walking-panel h2,.companion-panel h2 { font-size:27px; }
+}
