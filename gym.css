@@ -34,3 +34,6 @@ html{scroll-padding-top:110px}.wrap{width:min(1200px,calc(100% - 80px))}.top{pos
 .app-intro-layout{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:34px;align-items:center}.app-life-photos{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;width:350px}.app-life-photos figure{margin:0;min-width:0}.app-life-photos img{display:block;width:100%;height:auto;border-radius:9px}.app-life-photos figcaption{font-size:11px;line-height:1.8;color:var(--muted);margin-top:7px}.cta-brand-heading{display:flex;align-items:center;gap:8px}.cta-companion{width:88px;height:88px;object-fit:contain;image-rendering:pixelated;flex-shrink:0}.cta-brand-heading .eyebrow{margin-bottom:10px}.cta-brand-heading h2{font-size:28px}@media(max-width:900px){.app-intro-layout{grid-template-columns:1fr;gap:16px}.app-life-photos{width:min(350px,100%)}.cta-brand-heading{gap:4px}.cta-companion{width:60px;height:60px}.cta-brand-heading h2{font-size:clamp(17px,5vw,25px)}.cta-brand-heading .eyebrow{font-size:10px;letter-spacing:.02em;margin-bottom:5px}}
 
 .cta-brand-heading h2 span{display:inline-block}
+
+/* Read in the same order on desktop and mobile: benefits, app, flow, features, report. */
+.planning-content{max-width:900px}.weekly-report{padding-top:0}.weekly-report-inner{max-width:800px;margin-inline:auto}
