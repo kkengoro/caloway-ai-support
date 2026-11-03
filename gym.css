@@ -37,3 +37,14 @@ html{scroll-padding-top:110px}.wrap{width:min(1200px,calc(100% - 80px))}.top{pos
 
 /* Read in the same order on desktop and mobile: benefits, app, flow, features, report. */
 .planning-content{max-width:900px}.weekly-report{padding-top:0}.weekly-report-inner{max-width:800px;margin-inline:auto}
+
+/* Shared audience and the approved detailed report sample. */
+.audience-note{padding-top:28px;padding-bottom:36px;border-bottom:1px solid var(--line,#e2e6e1)}
+.audience-note p:last-child{font-size:15px;line-height:1.9;color:var(--muted,#657067);max-width:960px}
+.report-preview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:860px;margin:32px auto}
+.report-preview-grid figure{margin:0;min-width:0}
+.report-preview-grid a{display:block;border:1px solid #e1e6df;border-radius:12px;overflow:hidden;background:white;box-shadow:0 10px 28px #233e2f0a}
+.report-preview-grid img{display:block;width:100%;height:auto}
+.report-preview-grid figcaption{font-size:13px;line-height:1.8;color:#637168;margin-top:14px}
+.report-preview-grid figcaption strong{color:#284d3c;font-size:15px}
+@media(max-width:600px){.audience-note p:last-child{font-size:13px}.report-preview-grid{gap:12px;margin:24px auto}.report-preview-grid figcaption{font-size:11px}.report-preview-grid figcaption strong{font-size:12px}.report-preview-grid a{border-radius:7px}}
