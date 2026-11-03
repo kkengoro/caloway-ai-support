@@ -37,13 +37,3 @@ html{scroll-padding-top:110px}.wrap{width:min(1200px,calc(100% - 80px))}.top{pos
 
 /* Read in the same order on desktop and mobile: benefits, app, flow, features, report. */
 .planning-content{max-width:900px}.weekly-report{padding-top:0}.weekly-report-inner{max-width:800px;margin-inline:auto}
-
-/* Approved hand-drawn collaboration illustration in the hero. */
-.hero.hero-with-illustration{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:40px;background:#f5f7f3}
-.hero.hero-with-illustration:before{display:none}
-.hero-copy{min-width:0}
-.hero-illustration{min-width:0;margin:0}
-.hero-illustration>a{background:#fbf8ef;border-color:#e4e7dc;box-shadow:0 12px 32px #203c2c0a}
-.hero-illustration img{width:100%;height:auto;object-fit:contain}
-.hero-illustration figcaption{font-size:11px;line-height:1.8}
-@media(max-width:780px){.hero.hero-with-illustration{display:flex;flex-direction:column;align-items:stretch;gap:0}.hero-with-illustration .hero-copy{display:contents}.hero-with-illustration .tag{align-self:flex-start;order:0}.hero-with-illustration h1{order:1;margin:22px 0 24px}.hero-with-illustration .hero-illustration{order:2;margin:0 0 24px}.hero-with-illustration .lead{order:3;margin-top:0}.hero-with-illustration .actions{order:4}.hero-with-illustration .hero-copy>.small{order:5}.hero-illustration figcaption{font-size:11px}}
